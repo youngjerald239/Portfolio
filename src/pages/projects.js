@@ -30,6 +30,9 @@ export default function Projects() {
         <Button variant="primary" href={project.github} target="_blank">
          Github_Link
         </Button>
+        <Button variant="primary" href={project.live} target="_blank">
+         Live_Link
+        </Button>
       </Card.Body>
     </Card>   
           </Col>
