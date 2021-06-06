@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-content: center;
+  
+  
+}
+
+:root {
+  --title-font: serif;
+  --text-font: aerial;
+  
+  --primary-color: rgb(7, 7, 7);
+  --secondary-color: rgb(245, 241, 40);
+  --accent-color: purple;
+}
+
+h1{
+  color:rgb(238, 255, 0);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+}
+
+body {
+  font-family: var(--text-font);
+  background-color: #414141;
+  align-content: center;
+}
+
+/* ****************************
+Layout.js - nav
+**************************** */
+
+.nav {
+display:inline-block;
+  color: var(--secondary-color);
+  background-color: black;
+  padding: 5px;
+  justify-content: space-between;
+  
+  width:1500px;
+  
+}
+
+.nav a {
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border:var(--accent-color)
+}
+
+.nav__logo {
+  font-size: 4em;
+}
+
+.nav__links {
+    display: flex;
+    font-size: 2em;
+    align-items: center;
+}
+
+.project-section {
+  position: relative !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  width: 500px;
+  height: 900px;
+  
+}
+
+.project-card {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 25px !important;
+  padding-right: 5px !important;
+  height: auto !important;
+  
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgba(39, 25, 236, 0.459) !important;
+  color: white !important;
+  background-color: black !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 4px 5px rgba(243, 7, 7, 0.561) !important;
+}
+
+.card-img-top {
+  padding: 5px !important;
+  opacity: 0.8 !important;
+  border-radius: 0px !important;
+  width: 470px;
+  height: 450px;
+}
+
+.btn-primary {
+  color: rgb(228, 15, 15) !important;
+  background-color: #08050a !important;
+  border-color: #623686 !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.project-heading {
+  color: rgb(231, 228, 31) !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+  padding-bottom: 5px;
+}
+
+
+
+
+/* ****************************
+Layout.js - nav
+**************************** */
+
+
+/* ****************************
+Screens Smaller than 970px
+**************************** */
+
+@media screen and (max-width: 970px){
+    .nav__links {
+        font-size: 1.25em;
+    }
+    
+}
+
+/* ****************************
+Screens Smaller than 770px
+**************************** */
+
+@media screen and (max-width: 770px){
+
+    .nav__logo {
+        font-size: 2em;
+      }
+
+    .nav__links {
+        font-size: 1em;
+    }
+}
+
+/* ****************************
+Screens Smaller than 510px
+**************************** */
+
+@media screen and (max-width: 510px){
+
+    .nav__logo {
+        font-size: 1em;
+      }
+
+    .nav__links {
+        font-size: .6em;
+        font-weight: bolder;
+    }
+
+    .nav a {
+        padding: 2px;
+    }
+}

@@ -1,0 +1,38 @@
+
+[
+    {
+        "name": "Adventure Time Listing App",
+        "description": "Personal listing app of information on your favorite Adventure Time characters. Able to edit existing characters and add others on your own.",
+        "image": "https://i.imgur.com/17jlLlQ.png",
+        "github": "https://github.com/youngjerald239/-seir-329-AdventureTime-frontend.git",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "InuChat",
+        "description": "Created a game chat app. Connect to other users and chat on the web.",
+        "image": "https://i.imgur.com/eAHY3c2.png",
+        "github": "https://github.com/youngjerald239/InuChat",
+        "live": "https://jerald-inuchat.netlify.app/"
+    },
+    {
+        "name": "GameLounge",
+        "description": "Listing website for favorite games. Find all games, from previous releases, current popular games, and amazing releases to come. Completed different pages including My games, and a sign-up form page.",
+        "image": "https://i.imgur.com/P573NlS.png",
+        "github": "https://github.com/youngjerald239/Project_2.git",
+        "live": "https://epic-blackwell-90b00a.netlify.app/"
+    },
+    {
+        "name": "Plantie",
+        "description": "Plant care and tracking App. Created the backend Schema and assisted in the frontend creation.",
+        "image": "https://i.imgur.com/oW46GW1.png",
+        "github": "https://github.com/tony-shifflett/plantie-backend",
+        "live": "https://plantie.netlify.app/"
+    },
+    {
+        "name": "Pokedex",
+        "description": "A Pokedex app, that has a list of all pokemon. Click on the name of a pokemon and then add to team. It will appear on the My Team page.",
+        "image": "https://i.imgur.com/3zgldmU.png",
+        "github": "https://github.com/youngjerald239/Project_2.git",
+        "live": "https://epic-blackwell-90b00a.netlify.app/"
+    }
+]
