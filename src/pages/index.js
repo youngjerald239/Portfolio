@@ -7,7 +7,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import Typewriter from "typewriter-effect";
 import Layout from "../layout/Layout"
 
 export default function Blog() {
@@ -22,8 +22,21 @@ export default function Blog() {
             <h1 style={{ fontSize: "2.6em" }}>
               ABOUT <span className="purple"> ME </span> 
             </h1>
-            <p className="home-about-body">
-            Bringing graphic design and customer service skills into my work as a full-stack developer, I bring a
+            <Typewriter
+      options={{
+        strings: [
+          "Full-Stack Developer",
+          "Frontend Developer",
+          "Backend Developer",
+          "Ruby on Rails",
+        ],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 50,
+      }}
+    />
+      <h1 style={{ fontSize: "20px", color: "white" }}>
+      Bringing graphic design and customer service skills into my work as a full-stack developer, I bring a
 diverse set of skills not many have. Collaborative and analytical, I provide a unique perspective and
 focus on the user in all of my projects.
               <br />
@@ -51,8 +64,8 @@ focus on the user in all of my projects.
               &nbsp; like
               <i>
                 <b className="purple"> Node.js and React.js</b>
-              </i>
-            </p>
+              </i> 
+            </h1>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>

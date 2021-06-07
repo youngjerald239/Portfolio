@@ -57,17 +57,7 @@ body {
   border-color: transparent !important;
 }
 
-.navbar-toggler span {
-  display: block !important;
-  background-color: #be50f4 !important;
-  height: 4px !important;
-  width: 27px !important;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
-  transform: rotate(0deg) !important;
-  left: 0 !important;
-  opacity: 1 !important;
-}
+
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -148,10 +138,10 @@ Layout.js - nav
 
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
   width: 500px;
-  height: 900px;
+  height: 620px;
   
 }
 
@@ -389,16 +379,15 @@ Screens Smaller than 510px
 
 @media screen and (max-width: 510px){
 
-    .nav__logo {
-        font-size: 1em;
-      }
-
-    .nav__links {
-        font-size: .6em;
-        font-weight: bolder;
-    }
-
-    .nav a {
-        padding: 2px;
-    }
+  .navbar-toggler span {
+    display: block !important;
+    background-color: #e9f450 !important;
+    height: 4px !important;
+    width: 27px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    transform: rotate(0deg) !important;
+    left: 0 !important;
+    opacity: 1 !important;
+  }
 }
