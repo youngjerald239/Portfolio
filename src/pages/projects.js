@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <Layout>
       <h1>My Projects</h1>
-
+    <div className="projectsContainer">
       {projects.map((project => {
         return (<div>
           <Container fluid className="project-section"> 
@@ -28,10 +28,10 @@ export default function Projects() {
           {project.description}
         </Card.Text>
         <Button variant="primary" href={project.github} target="_blank">
-         Github_Link
+         Github Link
         </Button>
         <Button variant="primary" href={project.live} target="_blank">
-         Live_Link
+         Live Link
         </Button>
       </Card.Body>
     </Card>   
@@ -41,6 +41,7 @@ export default function Projects() {
     </Container>
         </div>)
       }))}
+      </div>
     </Layout>
   )
     }

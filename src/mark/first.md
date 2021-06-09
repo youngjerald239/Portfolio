@@ -1,9 +1,10 @@
 ---
-title: Awesome Blog Post Title
-author: Nikola
-date: 2020-07-15
+title: Kitty Crossing
+author: Jerald
+date: 2021-05-15
 ---
 
 ## Introduction to my Games
 
-Great content of my first blog
+Check out this game that was inspired by frogger
+

@@ -1,18 +1,11 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
-import { CgGitFork } from "react-icons/cg";
-import { CgFileDocument } from "react-icons/cg";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillStar,
-  AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { Link } from "gatsby"
+
 import "../style.css"
 import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from "react-bootstrap"

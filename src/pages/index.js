@@ -1,11 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
+import {AiFillGithub, AiOutlineTwitter, AiFillInstagram,} from "react-icons/ai";
+import {DiJavascript1,DiReact,DiNodejs,DiMongodb,DiGit,DiUbuntu} from "react-icons/di";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+  SiVisualstudiocode,
+  SiPostman,
+  SiHeroku,
+  SiRubygems,
+  SiNetlify,
+  SiFirebase
+} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import Layout from "../layout/Layout"
@@ -35,6 +40,49 @@ export default function Blog() {
         deleteSpeed: 50,
       }}
     />
+    <div className="many_icons">
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiUbuntu />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFirebase />
+      </Col>
+    </Row>
+    </div>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRubygems />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNetlify/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHeroku />
+      </Col>
+    </Row>
+    
       <h1 style={{ fontSize: "20px", color: "white" }}>
       Bringing graphic design and customer service skills into my work as a full-stack developer, I bring a
 diverse set of skills not many have. Collaborative and analytical, I provide a unique perspective and

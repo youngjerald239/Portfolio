@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   align-items: center;
+  text-align: center;
   
   
 }
@@ -38,10 +39,15 @@ body {
 /* --------- */
 
 .nav {
-  display: inline-flex;
-  transition: all 0.3s ease-out 0s !important;
-  padding: 5px !important;
-  font-size: 1.2rem !important;
+  padding: 15px 20px;
+  display:flex;
+  justify-content: space-between;
+  position:sticky;
+  background-color: rgb(214, 218, 35);
+  color:rgb(40, 140, 221);
+  z-index: 100;
+  top:0;
+  box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
   
 }
 
@@ -50,14 +56,17 @@ body {
   width: 80px !important;
   padding-left: 5px;
   display:inline-block;
+  align-items: center;
 }
 
 
-.navbar-nav .nav-item {
+.nav .navbar-nav {
   position: relative;
   margin-left: 0px;
   display:flex;
   display:inline-block;
+  padding-right: 5px;
+  
   
 }
 
@@ -89,24 +98,71 @@ body {
 /* ****************************
 Layout.js - nav
 **************************** */
+.purple {
+  color:#e0e418;
+}
+
+.many_icons {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  
+}
 
 
+ 
+
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(224, 33, 33, 0.883) !important;
+}
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+  
+}
 
 .project-section {
   position: relative !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
   width: 500px;
-  height: 620px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
   
+}
+
+.projectsContainer {
+  display:flex;
+  flex-wrap: wrap;
+  padding:20px;
+  justify-content: space-evenly;
 }
 
 .project-card {
   padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-bottom: 0px !important;
   padding-left: 25px !important;
-  padding-right: 5px !important;
+  padding-right: 25px !important;
   height: auto !important;
+  
   
 }
 
@@ -135,13 +191,14 @@ Layout.js - nav
 
 .btn-primary {
   color: rgb(228, 15, 15) !important;
-  background-color: #08050a !important;
-  border-color: #623686 !important;
+  background-color: #060701 !important;
+  border: #e0e418 !important;
+  padding:0px 0px 0px 5px;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
+  background-color: #ddd124d7 !important;
   border-color: #6d20c5d7 !important;
 }
 .btn:focus {
@@ -210,7 +267,7 @@ Layout.js - nav
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
-  padding-left: 560px;
+  padding-left: 0px;
 }
 
 @media (max-width: 767px) {
