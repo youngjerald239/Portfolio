@@ -41,47 +41,47 @@ export default function Blog() {
       }}
     />
     <div className="many_icons">
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    
+    <div className="tech-icons">
         <DiUbuntu />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiFirebase />
-      </Col>
-    </Row>
+      </div>
+    
     </div>
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    <div className="many_icons">
+    <div className="tech-icons">
         <SiRubygems />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiNetlify/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </div>
+      <div className="tech-icons">
         <SiHeroku />
-      </Col>
-    </Row>
+        </div>
+      </div>
     
       <h1 style={{ fontSize: "20px", color: "white" }}>
       Bringing graphic design and customer service skills into my work as a full-stack developer, I bring a
