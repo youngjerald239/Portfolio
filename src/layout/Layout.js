@@ -25,7 +25,7 @@ const Layout = props => {
     }
   }
 
-  window.addEventListener("scroll", scrollHandler);
+  
   return (
     <>
       <Container fluid className="footer">
