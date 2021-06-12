@@ -8,11 +8,11 @@
         "live": "link to deployed site"
     },
     {
-        "name": "InuChat",
-        "description": "Created a game chat app. Connect to other users and chat on the web.The project was authenticated and deployed to firebase",
-        "image": "https://i.imgur.com/eAHY3c2.png",
-        "github": "https://github.com/youngjerald239/InuChat",
-        "live": "https://jerald-inuchat.netlify.app/"
+        "name": "MyRume-App",
+        "description": "Created a Social media website clone. The website has sign in with Google Authentication and posting functionality. The project was authenticated and deployed to firebase",
+        "image": "https://i.imgur.com/VXrEGCB.png",
+        "github": "https://github.com/youngjerald239/MyRume-App",
+        "live": "https://myrume-d26d4.firebaseapp.com/"
     },
     {
         "name": "GameLounge",
