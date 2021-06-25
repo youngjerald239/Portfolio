@@ -15,11 +15,11 @@
         "live": "https://myrume-d26d4.firebaseapp.com/"
     },
     {
-        "name": "GameLounge",
-        "description": "Listing website for favorite games. Find all games, from previous releases, current popular games, and amazing releases to come. Completed different pages including My games, and a sign-up form page.",
-        "image": "https://i.imgur.com/P573NlS.png",
-        "github": "https://github.com/youngjerald239/Project_2.git",
-        "live": "https://epic-blackwell-90b00a.netlify.app/"
+        "name": "Chattable",
+        "description": "Social Media app. Twitter like ui and responsive design. created with react and deployed with firebase.",
+        "image": "https://i.imgur.com/oRtMZju.png",
+        "github": "https://github.com/youngjerald239/Chattable-app",
+        "live": "https://chattable-ebfbb.web.app/"
     },
     {
         "name": "Plantie",
