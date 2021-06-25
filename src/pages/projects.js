@@ -4,7 +4,6 @@ import projects from "../json/projects.json"
 import Card from 'react-bootstrap/Card'
 import Button from "react-bootstrap/Button"
 import { Container, Row, Col } from "react-bootstrap";
-import project from "../json/projects.json"
 import "../style.css"
 export default function Projects() {
   

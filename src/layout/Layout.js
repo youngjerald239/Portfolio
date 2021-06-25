@@ -34,6 +34,7 @@ const Layout = props => {
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/projects">Projects</Nav.Link>
       <Nav.Link href="/blog">Games</Nav.Link>
+      <Nav.Link href="/resume">Resume</Nav.Link>
           <ul className="footer-icons">
             <li className="social-icons">
               <a  

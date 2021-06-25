@@ -21,7 +21,10 @@ h1{
   color:rgb(238, 255, 0);
 }
 h2,
-h3,
+h3{
+  color:yellow;
+  padding:20px;
+}
 h4,
 h5,
 h6 {
@@ -32,6 +35,13 @@ body {
   font-family: var(--text-font);
   background-color: #353434;
   align-content: center;
+}
+
+.resume-section {
+  height: 900px;
+  color:rgb(93, 170, 238);
+  font-size: 20px;
+  font-weight: 900;
 }
 
 /* --------- */
