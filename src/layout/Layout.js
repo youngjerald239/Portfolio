@@ -28,19 +28,17 @@ const Layout = props => {
   
   return (
     <>
-      <Container fluid className="footer">
+      
       <Navbar bg="dark" variant="dark">
-    <Navbar.Brand href="/">
-      <img src={"https://scontent-ort2-2.xx.fbcdn.net/v/t39.1997-6/p160x160/98174198_244097157028493_9019087075676258304_n.png?_nc_cat=107&ccb=1-3&_nc_sid=ac3552&_nc_ohc=mL72OGA9cOYAX-2qwgw&_nc_ht=scontent-ort2-2.xx&tp=30&oh=3ca6bdcf8b5b5fe656ec00de4a734366&oe=60D3608F"} className="img-fluid logo" alt="brand" /></Navbar.Brand>
     <Nav className="nav">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/projects">Projects</Nav.Link>
       <Nav.Link href="/blog">Games</Nav.Link>
           <ul className="footer-icons">
             <li className="social-icons">
-              <a
+              <a  
                 href="https://github.com/youngjerald239"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <AiFillGithub />
               </a>
@@ -48,7 +46,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://twitter.com/Techfalcon27"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <AiOutlineTwitter />
               </a>
@@ -56,7 +54,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/jerald-young-232aa720a/"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <FaLinkedinIn />
               </a>
@@ -64,7 +62,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/appen.jerald/"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <AiFillInstagram />
               </a>
@@ -73,7 +71,7 @@ const Layout = props => {
         
     </Nav>
   </Navbar>
-  </Container>
+  
 
   <main className="main">{props.children}</main>   
   <Container fluid className="footer">
@@ -89,7 +87,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://github.com/youngjerald239"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <AiFillGithub />
               </a>
@@ -97,7 +95,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://twitter.com/Techfalcon27"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <AiOutlineTwitter />
               </a>
@@ -105,7 +103,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/jerald-young-232aa720a/"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <FaLinkedinIn />
               </a>
@@ -113,7 +111,7 @@ const Layout = props => {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/appen.jerald/"
-                style={{ color: "white" }}
+                style={{ color: "yellow" }}
               >
                 <AiFillInstagram />
               </a>

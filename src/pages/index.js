@@ -2,14 +2,17 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import {AiFillGithub, AiOutlineTwitter, AiFillInstagram,} from "react-icons/ai";
-import {DiJavascript1,DiReact,DiNodejs,DiMongodb,DiGit,DiUbuntu} from "react-icons/di";
+import {DiJavascript1,DiReact,DiNodejs,DiMongodb,DiGit,DiUbuntu, DiPostgresql} from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
   SiRubygems,
   SiNetlify,
-  SiFirebase
+  SiFirebase,
+  SiRails,
+  SiMaterialUi,
+  SiRuby
 } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
@@ -61,6 +64,9 @@ export default function Blog() {
         <DiGit />
       </div>
       <div className="tech-icons">
+        <DiPostgresql />
+      </div>
+      <div className="tech-icons">
         <SiFirebase />
       </div>
     
@@ -80,6 +86,15 @@ export default function Blog() {
       </div>
       <div className="tech-icons">
         <SiHeroku />
+        </div>
+        <div className="tech-icons">
+        <SiRails />
+        </div>
+        <div className="tech-icons">
+        <SiMaterialUi />
+        </div>
+        <div className="tech-icons">
+        <SiRuby />
         </div>
       </div>
     
@@ -124,7 +139,7 @@ focus on the user in all of my projects.
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
+            <p style={{color:"white"}}>
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
