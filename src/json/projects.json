@@ -1,11 +1,11 @@
 
 [
     {
-        "name": "Adventure Time Listing App",
-        "description": "Personal listing app of information on your favorite Adventure Time characters. Able to edit existing characters and add others on your own.",
-        "image": "https://i.imgur.com/17jlLlQ.png",
-        "github": "https://github.com/youngjerald239/-seir-329-AdventureTime-frontend.git",
-        "live": "link to deployed site"
+        "name": "TechFlix",
+        "description": "Streaming app designed like netflix. Allows you to view trailers when movies are clicked. Deployed with firebase",
+        "image": "https://i.imgur.com/MI5539f.png",
+        "github": "https://github.com/youngjerald239/techFlix",
+        "live": "https://techflix-a72fb.web.app/"
     },
     {
         "name": "MyRume-App",
@@ -41,5 +41,19 @@
         "image": "https://i.imgur.com/FcMjzvh.png",
         "github": "https://github.com/youngjerald239/Weather_App",
         "live": "https://jweather-app.netlify.app/"
+    },
+    {
+        "name": "Adventure Time Listing App",
+        "description": "Personal listing app of information on your favorite Adventure Time characters. Able to edit existing characters and add others on your own.",
+        "image": "https://i.imgur.com/17jlLlQ.png",
+        "github": "https://github.com/youngjerald239/-seir-329-AdventureTime-frontend.git",
+        "live": "link to deployed site"
+    },
+    {
+        "name": "The Kat & KaPoodle",
+        "description": "A pet care and adoption website, created with Ruby as backend, React, and Materialize css for front end. Has chat functionality as well as shows info when clicking on a pet.",
+        "image": "https://i.imgur.com/aQUq513.png",
+        "github": "https://github.com/youngjerald239/Petcareapp-frontend",
+        "live": "https://pet-care2.netlify.app/"
     }
 ]
