@@ -35,12 +35,12 @@ export default function MarkPage({ data }) {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
           <Card className="project-card-view">
-      <Card.Img variant="top" src={"https://i.imgur.com/dGFdIg9.png?1"} alt="card-img" />
+      <Card.Img variant="top" src={"https://res.cloudinary.com/dbgpqig0z/image/upload/v1641835967/sting_vekfjf.png"} alt="card-img" />
       <Card.Body>
-        <Button variant="primary" href={"https://github.com/youngjerald239/Kitty-Crossing-game"} target="_blank">
+        <Button variant="primary" href={"https://github.com/youngjerald239/cardbattle"} target="_blank">
          Github Link
         </Button>
-        <Button variant="primary" href={"https://kitty-crossing.netlify.app/"} target="_blank">
+        <Button variant="primary" href={"https://lutukresh.netlify.app/"} target="_blank">
          Live Link
         </Button>
       </Card.Body>
