@@ -46,7 +46,7 @@ const Layout = props => {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Techfalcon27"
+                href="https://twitter.com/JeraldYoung19"
                 style={{ color: "yellow" }}
               >
                 <AiOutlineTwitter />
