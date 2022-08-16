@@ -6,5 +6,7 @@ date: 2021-05-15
 
 ## Introduction to my Games
 
-Check out this game that was inspired by frogger
+## Please try out a few games I've created.
+
+## As an aspiring game developer I can only learn and grow from here!
 

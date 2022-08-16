@@ -27,7 +27,22 @@ export default function MarkPage({ data }) {
       </Card.Body>
     </Card>   
           </Col>
-        </Row>       
+        </Row>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+          <Card className="project-card-view">
+      <Card.Img variant="top" src={"https://i.imgur.com/dGFdIg9.png?1"} alt="card-img" />
+      <Card.Body>
+        <Button variant="primary" href={"https://github.com/youngjerald239/Kitty-Crossing-game"} target="_blank">
+         Github Link
+        </Button>
+        <Button variant="primary" href={"https://kitty-crossing.netlify.app/"} target="_blank">
+         Live Link
+        </Button>
+      </Card.Body>
+    </Card>   
+          </Col>
+        </Row>              
       </Container>
     </Container>
       </Layout>
