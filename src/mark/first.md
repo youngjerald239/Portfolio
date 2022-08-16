@@ -1,6 +1,7 @@
 ---
 title: Games
 author: Jerald
+date: 2021-05-15
 ---
 
 ## Introduction as a Junior game developer
