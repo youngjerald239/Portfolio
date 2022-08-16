@@ -1,5 +1,13 @@
 
 [
+    
+    {
+        "name": "MystoriArt Portfolio",
+        "description": "Portfolio created for Digital artist. Links to About page and current works",
+        "image": "https://pbs.twimg.com/profile_banners/161561454/1652222643/1500x500",
+        "github": "https://github.com/youngjerald239/Mystori-Art-Portfolio",
+        "live": "https://mystoriartportfolio.netlify.app/"
+    },
     {
         "name": "TechFlix",
         "description": "Streaming app designed like netflix. Allows you to view trailers when movies are clicked. Deployed with firebase",
