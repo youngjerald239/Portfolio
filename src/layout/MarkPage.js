@@ -28,6 +28,10 @@ export default function MarkPage({ data }) {
     </Card>   
           </Col>
         </Row>
+               
+      </Container>
+    </Container>
+      <Container>  
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
           <Card className="project-card-view">
@@ -42,9 +46,9 @@ export default function MarkPage({ data }) {
       </Card.Body>
     </Card>   
           </Col>
-        </Row>              
+        </Row>
+               
       </Container>
-    </Container>
       </Layout>
     )
   }
