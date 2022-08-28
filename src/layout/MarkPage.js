@@ -24,6 +24,7 @@ export default function MarkPage({ data }) {
         <Button variant="primary" href={"https://kitty-crossing.netlify.app/"} target="_blank">
          Live Link
         </Button>
+        KITTY CROSSING
       </Card.Body>
     </Card>   
           </Col>
@@ -43,6 +44,26 @@ export default function MarkPage({ data }) {
         <Button variant="primary" href={"https://lutukresh.netlify.app/"} target="_blank">
          Live Link
         </Button>
+        LUTUKRESH
+      </Card.Body>
+    </Card>   
+          </Col>
+        </Row>
+               
+      </Container>
+      <Container>  
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+          <Card className="project-card-view">
+      <Card.Img variant="top" src={"https://camo.githubusercontent.com/9d199b66d183a00c9534fb6af3dc1461bc7468c08408b30e0dae1b1ac496cc03/68747470733a2f2f692e696d6775722e636f6d2f306d74755437502e706e67"} alt="card-img" />
+      <Card.Body>
+        <Button variant="primary" href={"https://github.com/youngjerald239/JumpKat"} target="_blank">
+         Github Link
+        </Button>
+        <Button variant="primary" href={""} target="_blank">
+         Not yet available
+        </Button>
+        JumpKat
       </Card.Body>
     </Card>   
           </Col>
